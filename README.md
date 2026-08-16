@@ -1,10 +1,40 @@
-# This repo contains all the resources and projects I am currently exploring and implementing to learn.
-# 1.Kaggle Intro To Ml
-    Topic Covered:
-    1.How Models Work.
-    2.Basic Data Exploration.
-    3.Your First Machine Learning Model.
-    4.Model Validation.
-    5.Underfitting and Overfitting.
-    6.Random Forests.
-    7.Machine Learning Competitions.
+# ML Learning
+
+Notebooks and exercises from my ML learning journey — mostly Kaggle courses and hands-on experiments.
+
+## Contents
+
+### Kaggle: Intro to ML
+Working through the fundamentals:
+- How models work
+- Basic data exploration
+- Building your first ML model
+- Model validation
+- Underfitting and overfitting
+- Random forests
+- Entering ML competitions
+
+Notebooks are in `Kaggle Intro To Ml/` and use the Melbourne housing dataset (`melb_data.csv`).
+
+### Kaggle: Data Visualization
+`exercise-*.ipynb` files covering:
+- Bar charts and heatmaps
+- Line charts and scatter plots
+- Distributions
+- Hello Seaborn
+
+### Kaggle: Pandas
+`exercise-*.ipynb` files covering:
+- Reading and writing data
+- Indexing and selecting
+- Summary functions and maps
+- Grouping and sorting
+- Data types and missing values
+- Renaming and combining
+
+## Running the notebooks
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+jupyter notebook
+```
